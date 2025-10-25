@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct N1021erwtywrewthApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var ipqiwze9
+
+    init() {
+        UIApplication.shared.windows.forEach { window in
+            window.overrideUserInterfaceStyle = .dark
+        }
+       
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            xeqwbje1()
         }
     }
 }
+
+

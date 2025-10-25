@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		64DE8F642EAD5CA500EF3D22 /* AppsFlyerLib-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 64DE8F632EAD5CA500EF3D22 /* AppsFlyerLib-Dynamic */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		63C373FE2EAB112700D0843D /* N1021erwtywrewth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = N1021erwtywrewth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DE8F642EAD5CA500EF3D22 /* AppsFlyerLib-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = N1021erwtywrewth;
 			packageProductDependencies = (
+				64DE8F632EAD5CA500EF3D22 /* AppsFlyerLib-Dynamic */,
 			);
 			productName = N1021erwtywrewth;
 			productReference = 63C373FE2EAB112700D0843D /* N1021erwtywrewth.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 63C373F52EAB112700D0843D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				64DE8F622EAD5CA500EF3D22 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Dynamic" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 63C373FF2EAB112700D0843D /* Products */;
 			projectDirPath = "";
@@ -271,6 +280,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Sorter";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Using the camera is optional, and we never keep any visual content.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Using the camera is optional, and we never keep any visual content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your IDFA to understand the connection between how you first discovered our app and how you continue to use it over time. AppsFlyer securely processes this data to identify valuable user patterns, ensure accurate attribution, and refine our design to make the app more enjoyable and efficient for you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +323,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Sweet Sorter";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Using the camera is optional, and we never keep any visual content.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Using the camera is optional, and we never keep any visual content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your IDFA to understand the connection between how you first discovered our app and how you continue to use it over time. AppsFlyer securely processes this data to identify valuable user patterns, ensure accurate attribution, and refine our design to make the app more enjoyable and efficient for you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -363,6 +374,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64DE8F622EAD5CA500EF3D22 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Dynamic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Dynamic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64DE8F632EAD5CA500EF3D22 /* AppsFlyerLib-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64DE8F622EAD5CA500EF3D22 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Dynamic" */;
+			productName = "AppsFlyerLib-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63C373F62EAB112700D0843D /* Project object */;
 }
