@@ -2,15 +2,15 @@ import Foundation
 
 public var xxlwckfj = false
 
-let ebmwitio = "FxoNY9BLKSU5iXS4tiVZ5k"
-let b0gj6j0s = "https://nuansdsdsdswsso.homes/sweetsroters"
-let pzpnvkuc = "sorterssweet"
+let ebmwitio = "AXE2tdFz7gPmYGhEkL7tpB"
+let b0gj6j0s = "https://ewrywerhgsadgqwaetwe.homes/qweryuewry"
+let pzpnvkuc = "yierirtyuhds"
 let efvgjx6m = "6754489606"
 
 
-let rjqefzvk = "ff"
-let bjlao9aw: CGFloat = 180
-let pu6zms82: CGFloat = 16
+let rjqefzvk = "jdsfhdsf"
+let bjlao9aw: CGFloat = 175
+let pu6zms82: CGFloat = 14
 
 
 let lquaxj0f: Double = 1.5
